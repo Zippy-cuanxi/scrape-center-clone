@@ -1,0 +1,41 @@
+:root {
+  /* Brand */
+  --color-primary: #e9415a;
+  --color-primary-dark: #d23b51;
+  --color-primary-light: #fdecef;
+  --color-primary-border: #f6b3bd;
+
+  /* Surfaces */
+  --color-bg: #f2f2f2;
+  --color-surface: #ffffff;
+  --color-border: #e4e7ed;
+  --color-border-soft: #f0f2f5;
+
+  /* Text */
+  --color-text: #303133;
+  --color-text-regular: #606266;
+  --color-text-muted: #909399;
+  --color-title: #444444;
+
+  /* Shape */
+  --radius-card: 15px;
+  --radius-control: 8px;
+  --shadow-card-hover: 0 2px 12px rgba(0, 0, 0, 0.1);
+  --shadow-menu: 0 10px 24px rgba(0, 0, 0, 0.08);
+
+  /* Layout */
+  --container-width: 75%;
+  --container-max: 1440px;
+  --header-height: 60px;
+  --page-gutter: 20px;
+  --grid-gap: 20px;
+  --footer-gap: 50px;
+
+  /* Motion */
+  --transition-fast: 150ms ease;
+  --transition-base: 200ms ease;
+
+  /* Typography */
+  --font-sans: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial,
+    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+}
