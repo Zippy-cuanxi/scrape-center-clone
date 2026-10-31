@@ -6,6 +6,20 @@
 |---|---|
 | ![桌面端预览](docs/preview-desktop.png) | ![移动端预览](docs/preview-mobile.png) |
 
+## 在线访问
+
+**https://zippy-cuanxi.github.io/scrape-center-clone/**
+
+仓库：https://github.com/Zippy-cuanxi/scrape-center-clone
+
+部署方式为 **GitHub Actions 构建 + GitHub Pages 发布**（Pages Source 设为 GitHub Actions，而非 `gh-pages` 分支）。每次推送到 `main` 会自动触发 `.github/workflows/deploy.yml`：
+
+1. `npm ci` 安装依赖；
+2. 以 `BASE_PATH=/scrape-center-clone/` 执行 `npm run build`，Vite 会把 JS/CSS/favicon 改写成仓库子路径；
+3. 产物 `dist/` 通过 `upload-pages-artifact` 上传，再由 `deploy-pages` 发布。
+
+`dist/` 不进入版本库。fork 后若仓库名不同，工作流会自动使用当前仓库名作为子路径，无需改代码。
+
 ## 快速开始
 
 ```bash

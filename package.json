@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "A responsive, component-based rebuild of the scrape.center case directory.",
+  "homepage": "https://zippy-cuanxi.github.io/scrape-center-clone/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
